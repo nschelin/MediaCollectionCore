@@ -10,6 +10,7 @@ namespace MediaCollectionCore.Entities
 {
     public class MediaDbContext : DbContext
     {
+        public MediaDbContext(DbContextOptions<MediaDbContext> options) : base(options) { }
         public DbSet<Movie> Movies { get; set;  }
     }
 }
