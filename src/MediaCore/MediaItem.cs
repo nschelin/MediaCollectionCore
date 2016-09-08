@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace MediaCore
 {
@@ -12,7 +8,8 @@ namespace MediaCore
         string Name { get; set; }
         DateTime Created { get; set; }
         DateTime Modified { get; set; }
-        MediaType MediaCategory { get; set; }
+        MediaType[] MediaType { get; set; }
+        Genre[] Genre { get; set; }
 
     }
 }

@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace MediaCore
 {
-    public class MediaType
+    public class Genre
     {
         [Key]
         public int Id { get; set; }
